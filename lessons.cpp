@@ -98,13 +98,14 @@ int lesson7() {
 
         i++;
     }
+    std::cout << std::endl;
     // Задача #3
     // Есть ли в string введённым пользователем буква 'a'? (Выводится лишь один раз)
     std::cout << "Задача #3" << std::endl;
     std::cin >> str;
     bool found = false;
     for (int i = 0; i < str.length(); i++) {
-        if (str[i] == 'a') {
+        if (str[i] == 'а' or str[i] == 'a') {
             found = true;
             break;
         }
